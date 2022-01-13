@@ -1,0 +1,72 @@
+@import './Variables.scss';
+
+.text{
+    .btn-wrap{
+        text-align: center;
+        margin-bottom:10rem;
+        .btn{
+            width:250px;
+            padding:18px;
+            background:linear-gradient(to right, $Cyan, $Blue);
+            border:none;
+            color:$White;
+            border-radius:26px;
+            font-weight: 700;
+            font-size:1rem;
+            font-family: $body;
+        }
+        .btn:hover{
+            cursor:pointer;
+            background:hsl(196, 67%, 72%);
+        }
+    }
+
+}
+header{    
+    h1,p{
+        color:$White;
+        text-align: center;
+        margin:2rem 1.3rem;
+    }
+    h1{
+        font-weight:bold;
+        font-size:1.5rem;
+    
+    }
+   
+    .hero{
+        margin-left:2rem;
+        margin-right:2rem;
+        display: block;
+        width: 85%;
+        max-width:100vw;
+    }
+    .bgCurvy{
+        position:relative;
+    }
+    .text{
+        position:absolute;
+        top:0;
+    }
+   
+    .fylo{
+        font-family: $body;
+        padding:0px 10px;
+    }
+
+}
+@media only screen and (min-width:1440px) {
+    .hero{
+        margin-top:4rem;
+        width: 80%!important;
+        // max-width:100vw;    
+    }
+  
+    h1{
+        font-size:2.5rem!important;
+    }
+    .text{
+        left:50%;
+        transform:translate(-50%);
+    }
+}

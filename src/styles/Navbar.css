@@ -1,0 +1,52 @@
+body {
+  font-size: 14px;
+}
+
+.heading {
+  height: 450px;
+  background-color: #1c2431;
+  font-family: "Raleway", sans-serif;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 10px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 10px 14px;
+}
+
+nav img {
+  width: 85px;
+  height: 26px;
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 1440px) {
+  .heading {
+    height: 1400px;
+    z-index: 111;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

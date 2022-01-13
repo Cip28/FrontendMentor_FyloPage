@@ -1,0 +1,236 @@
+@import './Variables.scss';
+@import './Header.scss';
+
+.content{
+    background-color: $main-background;
+    height:3000px;
+    font-family: $body;
+    font-weight: 400;
+    padding-top:20rem;
+    p{
+        margin:0;
+        color:$White;
+        text-align: center;
+        padding:0 30px;
+    }
+    h2{
+        color:$White;
+        font-family: $headings;
+        text-align: center;
+    }
+
+}
+
+.comercials{ 
+
+    font-family: $body;
+    letter-spacing:1px;
+   
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height:73px;
+    }
+    p{
+        margin-bottom:5rem;
+    }
+}
+.productive-part{
+    font-family: $body;
+    .productive-img{
+        margin:0 auto;
+        display:block;
+        max-width:100vw;
+        width:86%;
+    }
+    h1{
+        margin-top:3.4rem;
+        color:$White;
+        font-size:1.1rem;
+        padding:0 30px;
+    }
+   p,h1{
+       text-align: left;
+    }
+    button{
+        margin:0 24px;
+        background-color:$main-background;
+        color:$Cyan;
+        border:none;
+        font-family: $body;
+        display:flex;
+        cursor:pointer;
+        transition:all .4s;
+        align-items: center;
+        img{margin-left:5px;}
+    }
+
+    .underline{
+        height:1px;
+        width:140px;
+        background-color: $Cyan;
+        margin:0 30px;
+    }
+    button:hover,.underline:hover{
+        color:$White;
+    }
+}
+
+.review-part{
+    font-family: $body;
+    margin-top:10rem;
+    .quotes{
+        padding-left:30px;
+        width:30px;
+        position:relative;
+    }
+  
+    .card{
+        padding:27px 20px;
+        background-color:$testimonials-background;
+        margin-bottom: 30px;
+        margin-left:25px;
+        margin-right:25px;
+        border-radius:5px;
+        p{
+            text-align:left;
+            line-height:1.7;
+            padding:0;
+        }
+        img{
+            width:30px;
+            border-radius:50%;
+        }
+        .card-flex{
+            display:flex;
+            align-items: center;
+            margin-top:20px;
+            .review-credentials{
+                margin-left:15px;
+            }
+            h5{
+                color:$White;
+                margin:0;
+                font-weight:700;
+            }
+            p{
+                font-size:0.7rem;
+                font-weight:400;
+
+            }
+        }
+    }
+}
+
+main{
+    position:relative;
+    height: 3000px;
+}
+// early access
+.early-access{
+    padding-top:15px;
+    background-color:$testimonials-background;
+    margin-left:25px;
+    margin-right:25px;
+    border-radius:5px;
+    padding-bottom:3rem;
+    z-index:1!important;
+    position:absolute;
+    bottom:-5%;
+    p{
+        padding:5px 20px;
+    }
+    form{
+        margin:20px 10px;
+        text-align:center;
+        input{
+            width:250px;
+            padding:15px;
+            border-radius:20px;
+            border:none;
+            outline:none;
+        }
+        ::placeholder{
+            font-size:.7rem;
+            color:rgb(182, 182, 182);
+            padding-left:10px;
+        }
+        .sign-up-btn{
+            cursor:pointer;
+            width:275px;
+            margin:15px;
+            color:$White;
+            background:linear-gradient(to right, $Cyan, $Blue);
+            font-size:.9rem;
+            font-weight:700;
+        }
+        .sign-up-btn:hover{
+            background:hsl(196, 67%, 72%);
+        }
+    }
+}
+
+
+
+@media only screen and (min-width:1439px ) {
+    .content{
+        height:1800px!important;
+        padding-top:5rem;
+    }
+    .comercials{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 3rem;
+        .comercial{
+            padding:0px 100px;
+            p{
+                font-size:1rem;
+            }
+        }
+    }
+    .productive-part{ 
+            display:flex;
+            align-items: center;
+        .productive-img{
+            width:50%;
+            padding:0px 50px;
+            }
+        .text-productive-part{
+            margin-right:87px;
+            h1{
+                margin-right:100px;
+            }
+        }   
+    }
+    .review-part .quotes{
+        width:50px;
+        padding-left:70px;
+    }
+    .reviews{      
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            margin:0px 50px;
+           
+    }
+    main{
+        height:1850px;
+    }
+    .early-access{
+       
+        left:50%;
+        transform:translate(-50%);
+        width:70%;
+        p{
+            padding:0rem 7rem;
+        }
+        form input{
+            width:500px;
+        }
+        form .sign-up-btn{margin-left:2rem;}
+    }
+}
