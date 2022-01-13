@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/FrontendMentor_FyloPage/static/css/main.860739ae.css",
+    "main.js": "/FrontendMentor_FyloPage/static/js/main.d37eacf8.js",
+    "static/js/787.fa6a4d40.chunk.js": "/FrontendMentor_FyloPage/static/js/787.fa6a4d40.chunk.js",
+    "static/media/illustration-intro.png": "/FrontendMentor_FyloPage/static/media/illustration-intro.c20d85255009f195b4a6.png",
+    "static/media/illustration-stay-productive.png": "/FrontendMentor_FyloPage/static/media/illustration-stay-productive.5d7a50ea74b08000cd67.png",
+    "static/media/icon-collaboration.svg": "/FrontendMentor_FyloPage/static/media/icon-collaboration.6c80c0a4c84274f029eb51c36f603765.svg",
+    "static/media/logo.svg": "/FrontendMentor_FyloPage/static/media/logo.f5363383bf279490c4aba63ca2917a80.svg",
+    "static/media/icon-access-anywhere.svg": "/FrontendMentor_FyloPage/static/media/icon-access-anywhere.2856c661b15230024a11eb4b089dd3f1.svg",
+    "static/media/icon-any-file.svg": "/FrontendMentor_FyloPage/static/media/icon-any-file.fc9b91ba9923102f3aa45c19bc3244e6.svg",
+    "index.html": "/FrontendMentor_FyloPage/index.html",
+    "static/media/icon-security.svg": "/FrontendMentor_FyloPage/static/media/icon-security.b6a932b6269cf10d3339e0a3d22c8b4e.svg",
+    "static/media/icon-arrow.svg": "/FrontendMentor_FyloPage/static/media/icon-arrow.c9bf5dcc5523b0bf1316444b922196b2.svg",
+    "static/media/bg-curvy-desktop.svg": "/FrontendMentor_FyloPage/static/media/bg-curvy-desktop.953dbf39a0ba9d537f9d8cf1140c09e2.svg",
+    "static/media/bg-curvy-mobile.svg": "/FrontendMentor_FyloPage/static/media/bg-curvy-mobile.3ab5d2c7091bda722a7b84824c5a0ce9.svg",
+    "static/media/icon-phone.svg": "/FrontendMentor_FyloPage/static/media/icon-phone.43c05d1a510cada2b8f305cbb2278ae4.svg",
+    "static/media/icon-location.svg": "/FrontendMentor_FyloPage/static/media/icon-location.a681f02d94e561498fa0781c3538edac.svg",
+    "static/media/icon-email.svg": "/FrontendMentor_FyloPage/static/media/icon-email.201ea9e2e87effbe720d0f8b77fba022.svg",
+    "main.860739ae.css.map": "/FrontendMentor_FyloPage/static/css/main.860739ae.css.map",
+    "main.d37eacf8.js.map": "/FrontendMentor_FyloPage/static/js/main.d37eacf8.js.map",
+    "787.fa6a4d40.chunk.js.map": "/FrontendMentor_FyloPage/static/js/787.fa6a4d40.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.860739ae.css",
+    "static/js/main.d37eacf8.js"
+  ]
+}
